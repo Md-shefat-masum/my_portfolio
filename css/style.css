@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+a,
+span {
+    display: inline-block;
+}
+
+:root {
+    --orange: #ee4d45;
+    --border: 1px solid red;
+    --montserat: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #676767;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navbar .logo {
+    /* border: var(--border); */
+    height: 64px;
+}
+
+.navbar .nav_bar_list {
+    /* border: var(--border); */
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav_bar_list li {
+    list-style-type: none;
+}
+
+.navbar .nav_bar_list li a {
+    text-decoration: none;
+    color: #676767;
+    text-transform: capitalize;
+    font-family: var(--montserat);
+    font-weight: bold;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.about {
+    background-color: #f5f4f2;
+}
+
+.about .container {
+    display: flex;
+    justify-content: center;
+    width: 992px;
+    margin: auto;
+}
+
+.about .container .left {
+    /* border: var(--border); */
+    width: 50%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about .container .left h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: var(--montserat);
+    margin-bottom: 20px;
+}
+
+.about .container .left h3 {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: var(--montserat);
+    margin-bottom: 30px;
+}
+
+.about .container .left p {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: var(--montserat);
+    margin-bottom: 30px;
+}
+
+.about .container .left a {
+    font-size: 22px;
+    border: 1px solid var(--orange);
+    color: white;
+    background: var(--orange);
+    text-decoration: none;
+    font-family: var(--montserat);
+    padding: 15px 25px;
+    width: 240px;
+}
+
+.about .container .right {
+    /* border: var(--border); */
+    width: 50%;
+}
+
+.about .container .right img {
+    width: 388px;
+}
+
+.about2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about2 .container {
+    width: 992px;
+    margin: auto;
+}
+
+.about2 .container .heading {
+    font-family: var(--montserat);
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.about2 .container .content {
+    display: flex;
+    font-family: var(--montserat);
+}
+
+.about2 .container .content .left {
+    /* border: var(--border); */
+    width: 50%;
+}
+
+.about2 .container .content .left h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.about2 .container .content .left .personal_info {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0px;
+}
+
+.about2 .container .content .left .personal_info li {
+    list-style-type: none;
+    padding-right: 30px;
+    width: 50%;
+    margin: 5px 0px;
+
+}
+
+.about2 .container .content .left .personal_info li i {
+    color: var(--orange);
+}
+
+.about2 .container .content .left .personal_info li b {
+    margin: 0px 10px;
+}
+
+.about2 .container .content .left .brand {
+    display: flex;
+}
+
+.about2 .container .content .left .brand li {
+    list-style-type: none;
+}
+
+.about2 .container .content .left .brand li a {}
+
+.about2 .container .content .left .brand li a i {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    border: var(--border);
+    border-radius: 50%;
+    color: var(--orange);
+    margin: 0px 5px;
+}
+
+.about2 .container .content .right {
+    /* border: var(--border); */
+    width: 50%;
+}
+.about2 .container .content .right img {
+    width: 100%;
+}
+
+footer p{
+    text-align: center;
+    padding: 10px 0px;
+    font-family: var(--montserat);
+    font-size: 16px;
+    background-color: #f5f4f2;
+}
